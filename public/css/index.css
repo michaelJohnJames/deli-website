@@ -1,0 +1,38 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+  } */
+
+  nav {
+    background-color: #af7250;
+    text-decoration: none;
+
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .navbar-brand {
+    color: white;
+  }
+
+
+
+
+  /*.jumbotron {
+    background-image: url("restaurant.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    margin: 20px;
+    height: 400px;
+  }*/
+
+
+
+  .carousel-inner {
+    height: 600px;
+
+}

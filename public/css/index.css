@@ -134,3 +134,20 @@
   margin-top: 50px;
   padding-top: 20px;
 }
+
+@media (max-width: 576px) {
+  .welcome {
+    font-size: 38px;
+  }
+  .main-heading {
+    font-size: 38px;
+  }
+
+  .sub-heading {
+    font-size: 20px;
+  }
+
+  .img-thumbnail {
+    margin-bottom: 20px;
+  }
+}

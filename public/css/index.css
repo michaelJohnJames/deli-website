@@ -139,6 +139,10 @@
 }
 
 @media (max-width: 576px) {
+  .carousel {
+    margin-top: 10px;
+  }
+
   .welcome {
     font-size: 38px;
   }

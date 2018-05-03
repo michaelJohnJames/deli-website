@@ -26,6 +26,20 @@
     margin-right: auto;
   }
 
+  .welcome {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+  }
+
+  .welcome-desc {
+    text-align: center;
+  }
+
+  .home-pics {
+    height: 400px;
+    width: auto;
+  }
 
 
 
@@ -37,9 +51,3 @@
     margin: 20px;
     height: 400px;
   }*/
-
-
-
-  .carousel-inner {
-    height: auto;
-}

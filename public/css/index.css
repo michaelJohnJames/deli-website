@@ -5,6 +5,8 @@
   } */
 
 
+  /* Navbar styles */
+
   nav {
     background-color: #af7250;
     text-decoration: none;
@@ -20,30 +22,12 @@
     font-family: 'Pacifico', cursive;
   }
 
-
+  /* Carousel styles */
   .carousel {
     margin-top: 5px;
   }
 
-  .welcome {
-    text-align: center;
-    font-size: 80px;
-    margin: 40px;
-    font-family: 'Pacifico', cursive;
-  }
-
-  .welcome-desc {
-    text-align: center;
-  }
-
-  .home-pics {
-    height: 400px;
-    width: auto;
-  }
-
-  .pics {
-    margin-top: 20px;
-  }
+  /* Heading styles */
 
   .sub-heading {
     font-family: 'Satisfy', cursive;
@@ -56,6 +40,46 @@
     margin-top: 20px;
   }
 
+  /* Section header styles */
+
+  #menu {
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+
+  #locations {
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+
+  #contact {
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+
+    /* Title styles */
+
+  .welcome {
+    text-align: center;
+    font-size: 80px;
+    margin: 40px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .welcome-desc {
+    text-align: center;
+  }
+
+    /* Menu styles */
+
+  .pics {
+    margin-top: 20px;
+  }
+
+
+
+    /* Card styles */
+
   .col-sm-4 {
     margin-bottom: 30px;
   }
@@ -66,12 +90,14 @@
 
   }
 
+  /* Social media icon styles */
+
 
 .fa {
-    margin: 5px;
-    padding: 20px;
-    font-size: 40px;
-    width: 60px;
+    margin: 5px 2px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -84,6 +110,7 @@
 .fa-facebook {
   background: #3B5998;
   color: white;
+  font-size: 100px;
 }
 
 .fa-twitter {
@@ -103,6 +130,16 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+
+
+
+
+/* Footer styles */
+
+.portfolio-link {
+  color: white;
+}
+
 .navbar-bottom {
   margin-top: 20px;
 }
@@ -110,27 +147,9 @@
 .copyright {
   color: white;
   margin-bottom: 0;
-
 }
 
-#menu {
-  margin-top: 50px;
-  padding-top: 20px;
-}
-
-#locations {
-  margin-top: 50px;
-  padding-top: 20px;
-}
-
-#contact {
-  margin-top: 50px;
-  padding-top: 20px;
-}
-
-.portfolio-link {
-  color: white;
-}
+/* Mobile style changes */
 
 @media (max-width: 576px) {
   .carousel {

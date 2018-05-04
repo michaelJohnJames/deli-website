@@ -4,6 +4,10 @@
     background-color: rgba(0,0,0,0.1);
   } */
 
+  body {
+    height: 100%;
+  }
+
 
   /* Navbar styles */
 
@@ -76,6 +80,14 @@
     margin-top: 20px;
   }
 
+  .menu-link {
+    color: black;
+  }
+
+  .menu-link:hover {
+    color: black;
+  }
+
 
 
     /* Card styles */
@@ -135,9 +147,9 @@
 
 
 /* Footer styles */
-.footer-menu {
-  position: absolute;
-  
+.fixed-bottom {
+
+  margin-top: 20px;
   bottom: 0;
 
 }
@@ -174,6 +186,14 @@
 
 .media {
   margin-bottom: 20px;
+}
+
+#accordion {
+  margin-bottom: 80px;
+}
+
+#sandwich-btn, #soup-btn, #salad-btn, #drink-btn {
+  color: black;
 }
 
 /* Mobile style changes */

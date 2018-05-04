@@ -26,6 +26,24 @@
     font-family: 'Pacifico', cursive;
   }
 
+  #dropdown-list {
+    background-color: #af7250;
+
+  }
+
+  #dropdown-item-1, #dropdown-item-2, #dropdown-item-3, #dropdown-item-4 {
+    color: white;
+  }
+
+  #dropdown-item-1:hover, #dropdown-item-2:hover, #dropdown-item-3:hover, #dropdown-item-4:hover {
+    color: #af7250;
+  }
+
+  #dropdown-item-1:active, #dropdown-item-2:active, #dropdown-item-3:active, #dropdown-item-4:active {
+    background-color: #af7250;
+    color: white;
+  }
+
 
   /* Carousel styles */
   .carousel {
@@ -100,7 +118,12 @@
   .btn-brown {
     background-color: #af7250;
     color: white;
+  }
 
+  .btn-brown:hover {
+    color: #af7250;
+    background-color: white;
+    border: 2px solid #af7250;
   }
 
   /* Social media icon styles */

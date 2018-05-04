@@ -17,11 +17,11 @@
   </head>
 
 
-  <body data-spy="scroll" data-target="#nav" data-offset="50">
+  <body data-spy="scroll" data-target="#accordian" data-offset="50">
     <nav class="navbar navbar-dark navbar-expand-sm sticky-top" id="nav">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Mike's Deli</a>
+          <a class="navbar-brand" href="index.html">Mike's Deli</a>
         </div>
         <button class="navbar-toggler" data-toggle="collapse" data-target=".navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
@@ -33,10 +33,17 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html/#locations">Locations</a>
+            <a class="nav-link" href="#sandwiches-card">Sandwiches</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html/#contact">Contact</a>
+            <a class="nav-link" href="#soups-card">Soups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#salads-card">Salads</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#drinks-card">Drinks</a>
           </li>
         </ul>
       </div>
@@ -56,7 +63,7 @@
   <div class="card">
     <div class="card-header" id="sandwiches-card">
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#sandwiches-card-body" aria-expanded="false" aria-controls="collapseOne">
+        <button id="sandwich-btn" class="btn btn-link collapsed" data-toggle="collapse" data-target="#sandwiches-card-body" aria-expanded="false" aria-controls="sandwiches-card-body">
           <h3 class="sub-heading">Sandwiches</h3>
         </button>
       </h5>
@@ -203,3 +210,17 @@
   </div>
 </div>
 </div>
+
+<footer>
+
+  <nav class="navbar navbar-bottom navbar-dark footer-menu" >
+
+    <p class="copyright"><small>Copyright 2018</small> <a class="navbar-brand" href="#"> Mike's Deli</a>This is a ficticous deli website example designed by <a class="portfolio-link" href="http://www.michaeljames.io">Michael James.</a></p>
+  </nav>
+</footer>
+
+
+<!-- JavaScripts -->
+<script src="public/js/index.js"></script>
+</body>
+</html>

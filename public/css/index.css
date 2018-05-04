@@ -135,6 +135,13 @@
 
 
 /* Footer styles */
+.footer-menu {
+  position: absolute;
+  
+  bottom: 0;
+
+}
+
 
 .portfolio-link {
   color: white;

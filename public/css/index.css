@@ -180,9 +180,14 @@
 }
 
 .menu-pic {
+  display: inline-block;
   height: 200px;
   width: 300px;
   border: 1px solid black;
+}
+
+.col-sm-4, .col-sm-8 {
+  padding-right: 0;
 }
 
 .media {
@@ -207,15 +212,29 @@
   .welcome {
     font-size: 38px;
   }
+
   .main-heading {
     font-size: 38px;
   }
 
   .sub-heading {
     font-size: 20px;
+
   }
 
-  .img-thumbnail {
+  #sandwich-pic, #soup-pic, #salad-pic, #drink-pic {
     margin-bottom: 20px;
+  }
+
+  .col-sm-4 {
+    margin-bottom: 10px;
+  }
+
+  .menu-pic {
+    margin-bottom: 10px;
+  }
+
+  #accordion {
+    margin-bottom: 100px;
   }
 }

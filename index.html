@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="public/favicon.ico">
-    <title>Mike's Deli</title>
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="public/css/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="public/favicon.ico">
+  <title>Mike's Deli</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="public/css/index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</head>
 
-  <body data-spy="scroll" data-target="#nav" data-offset="50">
-    <nav class="navbar navbar-dark navbar-expand-sm sticky-top" id="nav">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Mike's Deli</a>
-        </div>
-        <button class="navbar-toggler" data-toggle="collapse" data-target=".navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+<!-- Main Navbar -->
+
+<body data-spy="scroll" data-target="#nav" data-offset="50">
+  <nav class="navbar navbar-dark navbar-expand-sm sticky-top" id="nav">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Mike's Deli</a>
+      </div>
+      <button class="navbar-toggler" data-toggle="collapse" data-target=".navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
       <div class="collapse navbar-collapse navbarContent">
@@ -32,12 +34,12 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Menu
             </a>
-              <div class="dropdown-menu" id="dropdown-list" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" id="dropdown-item-1" href="menu.html#sandwiches-card-body">Sandwiches</a>
-                <a class="dropdown-item" id="dropdown-item-2" href="menu.html#soups-card-body">Soups</a>
-                <a class="dropdown-item" id="dropdown-item-3" href="menu.html#salads-card-body">Salads</a>
-                <a class="dropdown-item" id="dropdown-item-4" href="menu.html#drinks-card-body">Drinks</a>
-              </div>
+            <div class="dropdown-menu" id="dropdown-list" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" id="dropdown-item-1" href="menu.html#sandwiches-card-body">Sandwiches</a>
+              <a class="dropdown-item" id="dropdown-item-2" href="menu.html#soups-card-body">Soups</a>
+              <a class="dropdown-item" id="dropdown-item-3" href="menu.html#salads-card-body">Salads</a>
+              <a class="dropdown-item" id="dropdown-item-4" href="menu.html#drinks-card-body">Drinks</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#locations">Locations</a>
@@ -47,11 +49,10 @@
           </li>
         </ul>
       </div>
+    </div>
+  </nav>
 
-      </div>
-
-    </nav>
-
+<!-- Picture carousel -->
   <div class="container-fluid">
     <div class="carousel slide" id="deli-slider" data-ride="carousel">
       <div class="carousel-inner">
@@ -70,74 +71,84 @@
       </div>
 
 
+<!-- Carousel control arrows -->
 
-
-
-    <a class="carousel-control-prev" href="#deli-slider" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#deli-slider" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </a>
-    <a class="carousel-control-next" href="#deli-slider" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#deli-slider" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </a>
     </div>
-    </div>
+  </div>
 
 
+<!-- Welcome title and hours -->
 
-
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h1 class="welcome">Welcome to Mike's Deli!</h1>
-          <p class="text-center">Your stop for the freshest deli meats in South Jersey</p>
-          <p class="text-center"><strong>Hours</strong>:</p>
-          <p class="text-center"><strong>Monday-Friday:</strong> 9 a.m. to 5 p.m.</p>
-          <p class="text-center"><strong>Saturday:</strong> 9 a.m. to 7 p.m.</p>
-          <p class="text-center"><strong>Sunday:</strong> Noon to 5 p.m.</p>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="welcome">Welcome to Mike's Deli!</h1>
+        <p class="text-center tagline">Your stop for the freshest deli meats in South Jersey</p>
+        <h6 class="text-center"><strong>Hours</strong>:</h6>
       </div>
     </div>
+    <div class="row">
 
-      <hr id="menu">
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Monday-Friday:</strong> 9 a.m. to 5 p.m.</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Saturday:</strong> 9 a.m. to 7 p.m.</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Sunday:</strong> Noon to 5 p.m.</p>
+      </div>
+    </div>
+  </div>
 
-      <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <a class="menu-link" href="menu.html"><h1 class="text-center main-heading">Our Menu</h1></a>
-        </div>
+
+  <!-- Menu pictures with links to menu page accordion-->
+
+  <hr id="menu">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <a class="menu-link" href="menu.html"><h1 class="text-center main-heading">Our Menu</h1></a>
+      </div>
+    </div>
+
+    <div class="row pics">
+      <div class="col-sm-6">
+        <a class="menu-link" href="menu.html#sandwiches-card-body"><span class="text-center sub-heading"><h2>Sandwiches</h2></span></a>
+        <a href="menu.html#sandwiches-card-body"><img class="img-thumbnail" src="public/img/sandwiches1.jpeg" alt="Sandwiches" id="sandwich-pic"></a>
+      </div>
+      <div class="col-sm-6">
+        <a class="menu-link" href="menu.html#soups-card-body"><span class="text-center sub-heading"><h2>Soups</h2></span></a>
+        <a href="menu.html#soups-card-body"><img class="img-thumbnail" src="public/img/soups.jpeg" alt="Soups" id="soup-pic"></a>
+      </div>
+    </div>
+
+    <div class="row pics">
+      <div class="col-sm-6">
+        <a class="menu-link" href="menu.html#salads-card-body"><span class="text-center sub-heading"><h2>Salads</h2></span></a>
+        <a href="menu.html#salads-card-body"><img src="public/img/salads.jpeg" alt="Salads" class="img-thumbnail" id="salad-pic"></a>
+      </div>
+      <div class="col-sm-6">
+        <a class="menu-link" href="menu.html#drinks-card-body"><span class="text-center sub-heading"><h2>Drinks</h2></span></a>
+        <a href="menu.html#drinks-card-body"><img src="public/img/coffee.jpeg" alt="Drinks" class="img-thumbnail" id="drink-pic"></a>
       </div>
 
-      <div class="row pics">
-        <div class="col-sm-6">
-          <a class="menu-link" href="menu.html#sandwiches-card-body"><span class="text-center sub-heading"><h2>Sandwiches</h2></span></a>
-          <a href="menu.html#sandwiches-card-body"><img class="img-thumbnail" src="public/img/sandwiches1.jpeg" alt="Sandwiches" id="sandwich-pic"></a>
-        </div>
-        <div class="col-sm-6">
-          <a class="menu-link" href="menu.html#soups-card-body"><span class="text-center sub-heading"><h2>Soups</h2></span></a>
-          <a href="menu.html#soups-card-body"><img class="img-thumbnail" src="public/img/soups.jpeg" alt="Soups" id="soup-pic"></a>
-        </div>
-      </div>
+    </div>
+  </div>
 
-      <div class="row pics">
-        <div class="col-sm-6">
-          <a class="menu-link" href="menu.html#salads-card-body"><span class="text-center sub-heading"><h2>Salads</h2></span></a>
-          <a href="menu.html#salads-card-body"><img src="public/img/salads.jpeg" alt="Salads" class="img-thumbnail" id="salad-pic"></a>
-        </div>
-        <div class="col-sm-6">
-          <a class="menu-link" href="menu.html#drinks-card-body"><span class="text-center sub-heading"><h2>Drinks</h2></span></a>
-          <a href="menu.html#drinks-card-body"><img src="public/img/coffee.jpeg" alt="Drinks" class="img-thumbnail" id="drink-pic"></a>
-        </div>
+<!-- Locations with links to Google Map Directions -->
 
-      </div>
-      </div>
+  <hr id="locations">
 
-
-    <hr id="locations">
-
-    <div class="container-fluid">
-    <div class="row" >
+  <div class="container-fluid">
+    <div class="row">
       <div class="col-sm-12">
         <h1 class="text-center main-heading">Our Locations</h1>
       </div>
@@ -176,45 +187,50 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Contact options -->
+
+  <hr id="contact">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text-center main-heading">Contact Us</h1>
+    </div>
+  </div>
+
+  <!-- Social media icon links -->
+
+  <div class="row">
+    <div class="col-sm-6 text-center">
+      <h3 class="sub-heading">Online</h3>
+      <a href="#" class="fa fa-facebook fa-2x"></a>
+      <a href="#" class="fa fa-twitter fa-2x"></a>
+      <a href="#" class="fa fa-instagram fa-2x"></a>
+      <a href="#" class="fa fa-snapchat-ghost fa-2x"></a>
     </div>
 
-    <hr  id="contact">
+    <!-- Phone numbers and address -->
 
-    <div class="row">
-      <div class="col-sm-12">
-        <h1 class="text-center main-heading">Contact Us</h1>
-      </div>
+    <div class="col-sm-6">
+      <h3 class="text-center sub-heading">Main office</h3>
+      <p class="text-center"><strong>Phone: </strong> 555-123-4567</p>
+      <p class="text-center"><strong>Fax: </strong>555-678-9012</p>
+      <p class="text-center">123 N. Main St., Cherry Hill, NJ 08002</p>
+
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-sm-6 text-center">
-        <h3 class="sub-heading">Online</h3>
-        <a href="#" class="fa fa-facebook fa-2x"></a>
-        <a href="#" class="fa fa-twitter fa-2x"></a>
-        <a href="#" class="fa fa-instagram fa-2x"></a>
-        <a href="#" class="fa fa-snapchat-ghost fa-2x"></a>
-
-      </div>
-      <div class="col-sm-6">
-        <h3 class="text-center sub-heading">Main office</h3>
-        <p class="text-center"><strong>Phone: </strong> 555-123-4567</p>
-        <p class="text-center"><strong>Fax: </strong>555-678-9012</p>
-        <p class="text-center">123 N. Main St., Cherry Hill, NJ 08002</p>
-
-      </div>
-    </div>
+<!-- Footer -->
+  <footer>
+    <nav class="navbar navbar-bottom navbar-dark">
+      <p class="copyright"><small>Copyright 2018</small> <a class="navbar-brand" href="#"> Mike's Deli</a>This is a ficticous deli website example designed by <a class="portfolio-link" href="http://www.michaeljames.io">Michael James.</a></p>
+    </nav>
+  </footer>
 
 
-    <footer>
+  <!-- JavaScripts -->
+  <script src="public/js/index.js"></script>
+</body>
 
-      <nav class="navbar navbar-bottom navbar-dark">
-
-        <p class="copyright"><small>Copyright 2018</small> <a class="navbar-brand" href="#"> Mike's Deli</a>This is a ficticous deli website example designed by <a class="portfolio-link" href="http://www.michaeljames.io">Michael James.</a></p>
-      </nav>
-    </footer>
-
-
-    <!-- JavaScripts -->
-    <script src="public/js/index.js"></script>
-  </body>
 </html>

@@ -89,9 +89,10 @@
     font-family: 'Pacifico', cursive;
   }
 
-  .welcome-desc {
-    text-align: center;
+  .tagline {
+    font-size: 20px;
   }
+
 
     /* Menu styles */
 

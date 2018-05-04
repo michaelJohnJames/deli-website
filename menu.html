@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="public/favicon.ico">
+    <title>Mike's Deli</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="public/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body data-spy="scroll" data-target="#nav" data-offset="50">
+    <nav class="navbar navbar-dark navbar-expand-sm sticky-top" id="nav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Mike's Deli</a>
+        </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target=".navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+      <div class="collapse navbar-collapse navbarContent">
+        <ul class="nav navbar-nav navbar-right">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html/#locations">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html/#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      </div>
+
+    </nav>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="main-heading text-center">Our Menu</h1>
+      </div>
+    </div>
+
+    <div class="container">
+    <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="sandwiches-card">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#sandwiches-card-body" aria-expanded="false" aria-controls="collapseOne">
+          <h3 class="sub-heading">Sandwiches</h3>
+        </button>
+      </h5>
+    </div>
+
+    <div id="sandwiches-card-body" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/sandwiches1.jpeg" alt="Sandwich">
+          <div class="media-body">
+            <h5 class="mt-0">Baloney and Cheese</h5>
+              Served on a fresh hoagie roll, this deli classic features high-quality baloney with a slice of American cheese. Topped with lettuce, cucumbers, tomato and mustard or mayo. <strong>$6.95</strong>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/sandwiches2.jpg" alt="Sandwich">
+          <div class="media-body">
+            <h5 class="mt-0">Veggie Delight</h5>
+              Served on a freshly baked hard roll, this vegetarian option features a slice of melted mozzarella, fresh red tomato and a slice of onion with a special dijon mayo. <strong>$5.95</strong>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/sandwiches3.jpeg" alt="Sandwich">
+          <div class="media-body">
+            <h5 class="mt-0">Sausage, egg and cheese</h5>
+              Want a late breakfast? Try this sausage, egg and cheese on white or wheat bread that comes with a spicy ketchup. <strong>$7.95</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="soups-card">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#soups-card-body" aria-expanded="false" aria-controls="collapseTwo">
+          <h3 class="sub-heading">Soups</h3>
+        </button>
+      </h5>
+    </div>
+    <div id="soups-card-body" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/soups.jpeg" alt="Soup">
+          <div class="media-body">
+            <h5 class="mt-0">Corn Chowder</h5>
+              Warm up on a cold day with this creamy corn chowder. Made with fresh corn from the cob and featuring chopped onion and garlic it is sure to warm you up. <strong>$4.95</strong>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/soups2.jpeg" alt="Soup">
+          <div class="media-body">
+            <h5 class="mt-0">Shrimp Bisque</h5>
+              This hearty, creamy soup features jumbo shrimp and a blend of spices for the perfect combination. <strong>$8.95</strong>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/soups3.jpeg" alt="Soup">
+          <div class="media-body">
+            <h5 class="mt-0">Classic Tomato</h5>
+              An American Classic. This seasoned-tomato soup is made fresh daily and features locally-grown tomatoes. <strong>$6.95</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="salads-card">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#salads-card-body" aria-expanded="false" aria-controls="collapseThree">
+          <h3 class="sub-heading">Salads</h3>
+        </button>
+      </h5>
+    </div>
+    <div id="salads-card-body" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/salads.jpeg" alt="Salad">
+          <div class="media-body">
+            <h5 class="mt-0">Roasted Red Pepper Salad</h5>
+              The roasted red peppers are the star of this salad made with fresh arugala, onions and goat cheese. <strong>$7.95</strong>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/salads2.jpeg" alt="Salad">
+          <div class="media-body">
+            <h5 class="mt-0">House Salad</h5>
+              This classic salad features iceberg lettuce, grape tomatoes, carrots and radishes. <strong>$5.95</strong>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/salads3.jpeg" alt="Salad">
+          <div class="media-body">
+            <h5 class="mt-0">Fancy Greens Salad</h5>
+              Spring greens topped with raspberries, tomatoes and goat cheese. <strong>$6.95</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="drinks-card">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#drinks-card-body" aria-expanded="false" aria-controls="collapseFour">
+          <h3 class="sub-heading">Drinks</h3>
+        </button>
+      </h5>
+    </div>
+    <div id="drinks-card-body" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/coffee.jpeg" alt="Drink">
+          <div class="media-body">
+            <h5 class="mt-0">Coffee</h5>
+              We feature cappuccino, mocha and espresso made on site each morning. <strong>$2.95</strong> a cup.
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/drinks2.jpeg" alt="Drink">
+          <div class="media-body">
+            <h5 class="mt-0">Tea</h5>
+              We have a variety of black and green teas to pick from. <strong>$2.95</strong>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 menu-pic" src="public/img/drinks3.jpeg" alt="Drink">
+          <div class="media-body">
+            <h5 class="mt-0">Fountain drinks</h5>
+              We feature Coca-Cola products with free refills. <strong>$3.95</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

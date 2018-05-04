@@ -149,6 +149,26 @@
   margin-bottom: 0;
 }
 
+/* Menu page styles */
+
+#sandwiches-card, #soups-card, #salads-card, #drinks-card {
+  background-color: #efdabd;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  height: 90px;
+}
+
+.menu-pic {
+  height: 200px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.media {
+  margin-bottom: 20px;
+}
+
 /* Mobile style changes */
 
 @media (max-width: 576px) {
